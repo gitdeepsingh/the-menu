@@ -1,0 +1,14 @@
+{
+  "extends": ["standard", "standard-jsx"],
+  "rules": {
+
+  },
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  }
+}
