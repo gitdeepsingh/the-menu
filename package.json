@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "1.9.1",
+    "popper.js": "1.14.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-popper": "^1.0.0",
     "react-scripts": "1.1.4",
+    "reactstrap": "^6.2.0",
     "yarn": "^1.7.0"
   },
   "scripts": {
@@ -17,5 +22,7 @@
   "main": "index.js",
   "repository": "git@github.com:gitdeepsingh/the-menu.git",
   "author": "Deep <deepsingh.cts@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+  }
 }
