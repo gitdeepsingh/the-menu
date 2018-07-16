@@ -3,7 +3,7 @@ export const DISHES =
     {
       id: 0,
       name: 'Uthappizza',
-      image: 'E:/Backup 02-07-2018/Buggati/code/react-coursera/the-menu/src/components/shared/zucchipakoda.png',
+      image: 'assets/images/zucchipakoda.png',
       category: 'mains',
       label: 'Hot',
       price: '4.99',
@@ -49,7 +49,7 @@ export const DISHES =
     {
       id: 1,
       name: 'Zucchipakoda',
-      image: './zucchipakoda.png',
+      image: 'assets/images/zucchipakoda.png',
       category: 'appetizer',
       label: '',
       price: '1.99',

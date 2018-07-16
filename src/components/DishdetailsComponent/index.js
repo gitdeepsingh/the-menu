@@ -14,6 +14,14 @@ class DishDetails extends Component {
           <CardBody>
             <CardTitle>{dish.name}</CardTitle>
             <CardText>{dish.description}</CardText>
+            <CardText>{dish.comments.map(item =>
+              <Card key={item.id}>
+                <CardBody>
+                  <CardTitle>{item.rating}</CardTitle>
+                  <CardText>{item.comment}</CardText>
+                </CardBody>
+              </Card>
+            )}</CardText>
           </CardBody>
         </Card>
       );
